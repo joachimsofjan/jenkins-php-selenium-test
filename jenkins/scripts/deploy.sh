@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 set -x
-docker run -d --network jenkins -p 80:80 --name my-apache-php-app -v C:\Users\Joachim\Documents\SIt\trim2.3\SSD\Lab\jenkins-php-selenium-test\\src:/var/www/html php:7.2-apache
+docker run -d --network jenkins -p 80:80 --name my-apache-php-app -v C:/Users/Joachim/Documents/SIt/trim2.3/SSD/Lab/jenkins-php-selenium-test/src:/var/www/html php:7.2-apache
 sleep 1
 set +x
 echo 'Now...'
